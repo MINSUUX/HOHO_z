@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;900&display=swap');
+
+body{
+    margin: 0;    
+    overflow: hidden;
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+}
+
+#backButton{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    left: 5%;
+    width: 5%;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+    
+}
+
+#imgZzolging{
+    background-color: #EF8378;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    
+}
+
+#imgPabo{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+}
+
+#imgGRAND{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(165, 125, 51);
+}
+
+#imgPabo1{
+    /*부모요소에 있는것에 display flex먹이기
+    저스티파이컨텐츠 센터*/
+    
+    top: 20vh;
+    position: absolute;
+    
+}
+
+
+
+
+#imgPabo1vv{
+    /*부모요소에 있는것에 display flex먹이기
+    저스티파이컨텐츠 센터*/
+    left: 60%;
+    top: 15vh;
+    position: absolute;
+    
+}
+
+#imgPabo1Zvv{
+    /*부모요소에 있는것에 display flex먹이기
+    저스티파이컨텐츠 센터*/
+    left: 60%;
+    top: 10vh;
+    position: absolute;
+    
+}
+
+
+
+
+#imgPabo1Z{
+    /*부모요소에 있는것에 display flex먹이기
+    저스티파이컨텐츠 센터*/
+    left: 30%;
+    top: 0vh;
+    position: absolute;
+    
+}
+
+#imgPabo12{
+    position: absolute;
+    left: 55%;
+    top: 20vh;
+}
+
+#imgRSP{
+    background-color: rgb(204, 135, 103);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#imgRSPpapa{
+    background-color: rgb(209, 136, 103);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#imgDr{
+    background-color: rgb(202, 161, 28);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#imgEGG{
+    background-color: rgb(173, 151, 79);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#type{
+    color: white;
+    
+    left: 15%;
+    top: 30%;
+    font-size: 0.9vmax;
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif ;
+    font-weight: lighter;
+    
+}
+
+.displayNonePC{
+    display: none;
+}
+
+.displayNoneMB{
+    display: block;
+}
+
+@media (max-width:640px){
+    #type{
+        top: 70%;
+    }
+    #backButton{
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+
+    #imgPabo{
+        display: flex;
+        justify-content: center;
+    }
+
+    #imgPabo1{
+        position: absolute;
+        
+        left: 25vw;
+    }
+    
+    #imgPabo12{
+        position: absolute;
+        
+        top: 20vh;
+    }
+
+    .displayNonePC{
+        display: block;
+    }
+
+    .displayNoneMB{
+        display: none;
+    }
+}
